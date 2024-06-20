@@ -47,7 +47,7 @@ Here , This 'Unnamed' column is often created when a DataFrame with an index is 
    - And visualizations to confirm the cleaned data distribution.
    print(df['Salary'].describe())
 
-## Final Validation Results
+### Final Validation Results
 - Number of salaries below -9433.483545349256: 0
 - Number of salaries above 189073.26636871079: 0
 
