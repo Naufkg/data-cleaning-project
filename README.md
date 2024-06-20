@@ -26,11 +26,11 @@ Here , This 'Unnamed' column is often created when a DataFrame with an index is 
 3. **Correcting Data Types**:
     - Converted Age column to numeric type.
 
-3. **Correct Invalid Entries**:
+4. **Correct Invalid Entries**:
    - Corrected email formats using regex.
    - Standardized department names using a predefined mapping.
 
- 4. Outlier Detection and Handling
+ ## Outlier Detection and Handling
 - **Age and Salary**: Used boxplots, IQR, and Z-score methods to detect outliers.
   - No significant outliers were found in Age and Salary.
 
@@ -42,7 +42,6 @@ Here , This 'Unnamed' column is often created when a DataFrame with an index is 
    - Validated results by counting values outside the boundaries.
 
 ### Validation of Salary Data Cleaning
-
 6. **Summary Statistics**:
    - Reviewed summary statistics to ensure all salary values fall within the defined boundaries.
    - And visualizations to confirm the cleaned data distribution.
